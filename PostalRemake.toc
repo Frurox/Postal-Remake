@@ -4,6 +4,8 @@
 ## Author: Frurox
 ## Version: @project-version@
 ## X-GitHub: https://github.com/Frurox/Postal-Remake
+## X-Curse-Project-ID: 1527836
+## X-Wago-ID: aN0Xp3Nj
 
 Locales\enUS.lua
 PostalRemake.lua
