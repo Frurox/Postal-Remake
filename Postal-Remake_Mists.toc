@@ -1,25 +1,16 @@
-## Interface: 30403
+## Interface: 50502
 ## Title: Postal-Remake
-## Version: 4.4.2
+## Version: 1.0.0
 ## X-Build: 675
 ## X-ReleaseDate: 2026-03-18T00:00:00Z
 ## X-Revision: 663
-## Author: paradosi@Dreamscythe
+## Author: Frurox
 ## X-Credits: Ammo, Rabbit, Grennon, Mikk, oscarucb, Jonny aka The_Original_Manbot
 ## X-Category: Mail
+## IconTexture: Interface\AddOns\Postal-Remake\Postal-Remake_logo
 ## Notes: Postal-Remake: Enhanced Mailbox support
-## Notes-ruRU: Postal-Remake: Расширенная поддержка почтового ящика
-## Notes-frFR: Postal-Remake: améliorations diverses de l'interface d'envoi/réception de courriers.
-## Notes-esES: Postal-Remake: soporte mejorado para el buzon
-## Notes-zhTW: Postal-Remake: 強化信箱功能。
-## Notes-zhCN: Postal-Remake: 增强信箱功能
-## Notes-ptBR: Postal-Remake: Apoio caixa reforçada
 ## OptionalDeps: Ace3, !BlizzBugsSuck, !ClassColors
-## SavedVariables: Postal3DB
-
-## LoadManagers: AddonLoader
-## X-LoadOn-Mailbox: true
-## X-Email: jonny AT jmbg DOT net
+## SavedVariables: Postal-RemakeDB
 
 #@no-lib-strip@
 Libs\LibStub\LibStub.lua
