@@ -6,7 +6,7 @@ Postal_QuickAttach.description2 = L[ [[|cFFFFCC00*|r A default recipient name ca
 |cFFFFCC00*|r Which bags are used by this feature can be set in the main menu.]] ]
 local GetContainerNumSlotsSafe = (C_Container and C_Container.GetContainerNumSlots) or GetContainerNumSlots
 local PickupContainerItemSafe = (C_Container and C_Container.PickupContainerItem) or PickupContainerItem
--- Uses Postal:GetContainerItemInfoCompat() from Postal.lua
+-- Uses Postal:GetContainerItemInfoCompat() from PostalRemake.lua
 -- Trade Goods supported itemType for C_Item.GetItemInfo() by WoW release version
 -- Classic: Trade Goods(0), Reagent(5, 0)
 -- BCC: Cloth(5), Leather(6), Metal & Stone(7), Meat(8), Herb(9), Enchanting(12), Jewelcrafting(4), Parts(1), Elemental(10), Devices(3), Explosives(2), Materials(13), Other(11)

@@ -20,7 +20,7 @@ Libs\AceLocale-3.0\AceLocale-3.0.xml
 #@end-no-lib-strip@
 
 Localization.lua
-Postal.lua
+PostalRemake.lua
 
 # Users can comment out any module (or delete the .lua) of any module they do not wish to load
 Modules\Express.lua

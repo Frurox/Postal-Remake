@@ -13,7 +13,7 @@ Postal_OpenAll.description2 = L[ [[|cFFFFCC00*|r Simple filters are available fo
 local MAX_MAIL_SHOWN = 100
 local GetContainerNumFreeSlotsSafe = (C_Container and C_Container.GetContainerNumFreeSlots) or GetContainerNumFreeSlots
 local GetContainerNumSlotsSafe = (C_Container and C_Container.GetContainerNumSlots) or GetContainerNumSlots
--- Uses Postal:GetContainerItemInfoCompat() from Postal.lua
+-- Uses Postal:GetContainerItemInfoCompat() from PostalRemake.lua
 local mailIndex, attachIndex
 local numUnshownItems
 local lastItem, lastNumAttach, lastNumGold

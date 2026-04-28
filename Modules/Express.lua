@@ -9,7 +9,7 @@ Postal_Express.description2 = L[ [[|cFFFFCC00*|r Shift-Click to take item/money 
 local GetContainerNumSlotsSafe = (C_Container and C_Container.GetContainerNumSlots) or GetContainerNumSlots
 local GetContainerItemIDSafe = (C_Container and C_Container.GetContainerItemID) or GetContainerItemID
 local PickupContainerItemSafe = (C_Container and C_Container.PickupContainerItem) or PickupContainerItem
--- Uses Postal:GetContainerItemInfoCompat() from Postal.lua
+-- Uses Postal:GetContainerItemInfoCompat() from PostalRemake.lua
 
 local _G = getfenv(0)
 
