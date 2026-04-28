@@ -1,11 +1,7 @@
 ## Interface: 30403
 ## Title: Postal-Remake
 ## Version: 1.0.0
-## X-Build: 675
-## X-ReleaseDate: 2026-03-18T00:00:00Z
-## X-Revision: 663
 ## Author: Frurox
-## X-Credits: Ammo, Rabbit, Grennon, Mikk, oscarucb, Jonny aka The_Original_Manbot
 ## X-Category: Mail
 ## IconTexture: Interface\AddOns\Postal-Remake\Postal-Remake_logo
 ## Notes: Postal-Remake: Enhanced Mailbox support
