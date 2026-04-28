@@ -18,44 +18,9 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set variables
-        id: vars
-        run: |
-          ADDON_NAME="Postal-Remake"
-          TAG="${GITHUB_REF_NAME}"
-          echo "addon_name=${ADDON_NAME}" >> "$GITHUB_OUTPUT"
-          echo "tag=${TAG}" >> "$GITHUB_OUTPUT"
-          echo "zip_name=${ADDON_NAME}-${TAG}.zip" >> "$GITHUB_OUTPUT"
-
-      - name: Build zip
-        run: |
-          ADDON_NAME="${{ steps.vars.outputs.addon_name }}"
-          ZIP_NAME="${{ steps.vars.outputs.zip_name }}"
-
-          # Stage addon files under a folder named after the addon
-          mkdir -p "/tmp/pkg/${ADDON_NAME}"
-          rsync -a \
-            --exclude='.git' \
-            --exclude='.github' \
-            --exclude='.pkgmeta' \
-            . "/tmp/pkg/${ADDON_NAME}/"
-
-          # Create the zip so the addon folder sits at the archive root
-          cd /tmp/pkg
-          zip -r "${GITHUB_WORKSPACE}/${ZIP_NAME}" "${ADDON_NAME}"
-
-      - name: Upload to CurseForge
+      - name: Package and Release
         uses: BigWigsMods/packager@v2
         env:
-          CF_API_KEY: ${{ secrets.CURSEFORGE_API_TOKEN }}
-
-      - name: Upload to Wago.io
-        uses: BigWigsMods/packager@v2
-        env:
+          CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
           WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
-
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
-        with:
-          files: ${{ steps.vars.outputs.zip_name }}
-          generate_release_notes: true
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
