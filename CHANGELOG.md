@@ -2,6 +2,11 @@
 
 All notable changes to Postal-Remake will be documented here.
 
+## [1.0.2-release] - 2026-04-28
+
+### Fixed
+- `Media/Postal-Remake_logo.tga` was an empty (0-byte) file causing `IconTexture` to not display in the addon list; replaced with a valid 64×64 32-bit TGA generated from `Postal-Remake.png`
+
 ## [1.0.1-Release] - 2026-04-28
 
 ### Added
