@@ -6,7 +6,7 @@
 ## Interface-Cata: 40402
 ## Interface-Mists: 50503
 ## Title: Postal-Remake
-## Version: 1.0.0-Release
+## Version: 1.0.1-Release
 ## Author: Frurox
 ## X-Category: Mail
 ## IconTexture: Interface\AddOns\Postal-Remake\Media\Postal-Remake_logo
