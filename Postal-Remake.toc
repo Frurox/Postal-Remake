@@ -1,4 +1,9 @@
 ## Interface: 120001
+## Interface-Classic: 11508
+## Interface-BCC: 20505
+## Interface-Wrath: 30403
+## Interface-Cata: 40402
+## Interface-Mists: 50502
 ## Title: Postal-Remake
 ## Version: 1.0.0
 ## Author: Frurox
@@ -7,6 +12,7 @@
 ## Notes: Postal-Remake: Enhanced Mailbox support
 ## OptionalDeps: Ace3, !BlizzBugsSuck, !ClassColors
 ## SavedVariables: Postal-RemakeDB
+## X-Wago-ID: 4N2kl06L
 
 #@no-lib-strip@
 Libs\LibStub\LibStub.lua
