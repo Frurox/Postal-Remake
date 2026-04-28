@@ -1,5 +1,5 @@
 ## Interface: 30403
-## Title: Postal Community Edition
+## Title: Postal-Remake
 ## Version: 4.4.2
 ## X-Build: 675
 ## X-ReleaseDate: 2026-03-18T00:00:00Z
@@ -7,13 +7,13 @@
 ## Author: paradosi@Dreamscythe
 ## X-Credits: Ammo, Rabbit, Grennon, Mikk, oscarucb, Jonny aka The_Original_Manbot
 ## X-Category: Mail
-## Notes: Postal Community Edition: Enhanced Mailbox support
-## Notes-ruRU: Postal Community Edition: Расширенная поддержка почтового ящика
-## Notes-frFR: Postal Community Edition: améliorations diverses de l'interface d'envoi/réception de courriers.
-## Notes-esES: Postal Community Edition: soporte mejorado para el buzon
-## Notes-zhTW: Postal Community Edition: 強化信箱功能。
-## Notes-zhCN: Postal Community Edition: 增强信箱功能
-## Notes-ptBR: Postal Community Edition: Apoio caixa reforçada
+## Notes: Postal-Remake: Enhanced Mailbox support
+## Notes-ruRU: Postal-Remake: Расширенная поддержка почтового ящика
+## Notes-frFR: Postal-Remake: améliorations diverses de l'interface d'envoi/réception de courriers.
+## Notes-esES: Postal-Remake: soporte mejorado para el buzon
+## Notes-zhTW: Postal-Remake: 強化信箱功能。
+## Notes-zhCN: Postal-Remake: 增强信箱功能
+## Notes-ptBR: Postal-Remake: Apoio caixa reforçada
 ## OptionalDeps: Ace3, !BlizzBugsSuck, !ClassColors
 ## SavedVariables: Postal3DB
 

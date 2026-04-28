@@ -21,7 +21,7 @@ jobs:
       - name: Set variables
         id: vars
         run: |
-          ADDON_NAME="PostalRemake"
+          ADDON_NAME="Postal-Remake"
           TAG="${GITHUB_REF_NAME}"
           echo "addon_name=${ADDON_NAME}" >> "$GITHUB_OUTPUT"
           echo "tag=${TAG}" >> "$GITHUB_OUTPUT"
