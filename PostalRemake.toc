@@ -1,0 +1,9 @@
+## Interface: 120005
+## Title: Postal Remake
+## Notes: Enhanced Mailbox support.
+## Author: Frurox
+## Version: @project-version@
+## X-GitHub: https://github.com/Frurox/Postal-Remake
+
+Locales\enUS.lua
+PostalRemake.lua

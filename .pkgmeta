@@ -1,0 +1,10 @@
+package-as: PostalRemake
+
+enable-nolib-creation: yes
+
+ignore:
+  - .pkgmeta
+  - .github
+  - README.md
+  - CHANGELOG.md
+  - LICENSE
