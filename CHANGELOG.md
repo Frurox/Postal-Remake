@@ -2,6 +2,11 @@
 
 All notable changes to Postal-Remake will be documented here.
 
+## [1.0.3-release] - 2026-04-29
+
+### Fixed
+- Updated Wago.io Project #
+
 ## [1.0.2-release] - 2026-04-28
 
 ### Fixed
