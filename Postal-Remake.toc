@@ -6,14 +6,14 @@
 ## Interface-Cata: 40402
 ## Interface-Mists: 50503
 ## Title: Postal-Remake
-## Version: 1.0.2-release
+## Version: 1.0.3-release
 ## Author: Frurox
 ## X-Category: Mail
 ## IconTexture: Interface\AddOns\Postal-Remake\Media\Postal-Remake_logo
 ## Notes: Postal-Remake: Enhanced Mailbox support
 ## OptionalDeps: Ace3, !BlizzBugsSuck, !ClassColors
 ## SavedVariables: Postal-RemakeDB
-## X-Wago-ID: aN0Xp3Nj
+## X-Wago-ID: vNAgRQKo
 ## X-Curse-Project-ID: 1527836
 ## X-GitHub: https://github.com/Frurox/Postal-Remake
 
